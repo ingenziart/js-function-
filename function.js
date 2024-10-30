@@ -30,3 +30,13 @@ const years =function(){
     achievement()
 }
 years()
+
+const first=function(){
+    let x=20;
+    const second=function(){
+        let y=30;
+        console.log(x+y)
+    }
+    second()
+}
+first()
