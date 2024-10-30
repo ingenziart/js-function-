@@ -40,3 +40,31 @@ const first=function(){
     second()
 }
 first()
+ 
+ const remaining=function(n,divident){
+    let remeinder=n%divident;
+    return (remeinder-1)
+    
+ }
+console.log(remaining(100,5))
+
+//there are two way of defining function (function declaration and function expression)
+
+//function declaration
+
+function sum(c,b){
+     c=10
+     b=20
+    return c+b
+
+}
+console.log(sum())
+
+//function expression
+
+const sum=function(a,b){
+    a=20
+    b=20
+    return a+b
+}
+console.log(sum())
