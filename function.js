@@ -94,3 +94,21 @@ const myfunc=function(manufacturing){
 console.log(details.first)
 name(details)
 console.log(details.first)
+//on array 
+
+function my_array(array){
+    array[0]=30;
+}
+const thearray=[45];
+console.log(thearray[0])
+my_array(thearray)
+console.log(thearray[0])
+
+
+function myarray2(array){
+    array=[1,2,3,4]
+}
+const array2=[4,3,2,1]
+console.log(array2)
+myarray2(array2);
+console.log(array2)

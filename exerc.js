@@ -8,3 +8,4 @@ const reversed=function(n){
     return n.split('').reverse().join('')
 }
 console.log(Number(reversed(32243)))
+
