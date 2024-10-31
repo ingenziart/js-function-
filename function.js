@@ -68,3 +68,29 @@ const sum=function(a,b){
     return a+b
 }
 console.log(sum())
+// cnanging object 
+const myfunc=function(manufacturing){
+    manufacturing.make="toyota";}
+    const my_car={
+        make:"honda",
+        model:"accord",
+        year:1998
+    }
+
+    console.log(my_car.make)
+    myfunc(my_car)
+    console.log(my_car.make)
+
+
+    const name=function(names){
+        names.first="ingenzi"
+    }
+
+    const details={
+        first:"januzaj",
+        year:2000
+    }
+ 
+console.log(details.first)
+name(details)
+console.log(details.first)
