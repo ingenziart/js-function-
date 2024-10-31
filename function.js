@@ -112,3 +112,22 @@ const array2=[4,3,2,1]
 console.log(array2)
 myarray2(array2);
 console.log(array2)
+
+function factorial1(n){
+    if(n===0||n===1){
+        return 1;
+    }
+    else{
+        return n* factorial1(n-1)
+    }
+}
+
+
+
+console.log(factorial1(1)); // 1
+console.log(factorial1(2)); // 2
+console.log(factorial1(3)); // 6
+console.log(factorial1(4)); // 24
+console.log(factorial1(5)); // 120
+
+
