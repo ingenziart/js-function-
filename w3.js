@@ -26,3 +26,12 @@ function myfunction(a,b){
     return a*b
 }
 console.log(myfunction(3,4))
+
+// changing from celcius to farhenight
+
+let value =tocelsius(77)
+
+function tocelsius(farhenight){
+    return (5/9)*(farhenight-32);
+}
+console.log(value)
