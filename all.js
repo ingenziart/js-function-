@@ -28,3 +28,7 @@ console.log(years(300))
 
 let random=Math.random(1,5)*5
 console.log(random)
+
+const ages=34;
+const text="my name is januzaj and my age is"+" "+`${ages}`
+console.log(text)
