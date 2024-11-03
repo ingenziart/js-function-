@@ -166,3 +166,16 @@ const myperson1=function(firstname,lastname,age){
     this.age=age
 }
 console.log(myperson1("firstname","lastname","50"))
+
+let text1 = "HELLO WORLD";
+let char = text1.charAt(2);
+console.log(char)
+
+//template
+let mytext=`hello me`
+console.log(mytext)
+
+const firstname1="aime"
+const lastname2="januzaj"
+
+console.log(`my name is ${firstname1+" "+lastname2}`)
