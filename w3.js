@@ -35,3 +35,26 @@ function tocelsius(farhenight){
     return (5/9)*(farhenight-32);
 }
 console.log(value)
+
+//local variable , variable used inside the function
+
+function mycar(){
+    let carName="volvo"
+    console.log(carName)
+}
+mycar()
+// OBJECT 
+
+let car ={
+    name:"fiat",
+    modal:"fiat12",
+    year:2024
+}
+console.log(car.year)
+
+const person={
+    firstName:"aime",
+    lastName:"januzaj",
+    DOB:2000
+}
+console.log(person.lastName)
