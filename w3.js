@@ -157,3 +157,12 @@ const person7={
 
 const json=JSON.stringify(person7)
 console.log(json)
+
+// object construction using function
+
+const myperson1=function(firstname,lastname,age){
+    this.firstname=firstname;
+    this.lastname=lastname;
+    this.age=age
+}
+console.log(myperson1("firstname","lastname","50"))
