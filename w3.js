@@ -207,3 +207,13 @@ const myArr = [[1,2],[3,4],[5,6]];
 let s=myArr.flat()
 let o=s.toString()
 console.log(o)
+
+const fruits5 = ["Apple", "Orange", "Apple", "Mango"];
+let position = fruits5.indexOf("Apple")+1
+console.log(position)
+
+// sort and reverse
+const fruits6 = ["Apple", "Orange", "Apple", "Mango"]
+let ko=fruits6.reverse()
+let me=ko.sort()
+console.log(ko)
