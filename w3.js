@@ -217,3 +217,27 @@ const fruits6 = ["Apple", "Orange", "Apple", "Mango"]
 let ko=fruits6.reverse()
 let me=ko.sort()
 console.log(ko)
+
+//js array iteration 
+
+// foreach
+
+const numbers=[45,12,27,89,76]
+
+
+let text2="";
+numbers.forEach(myfunction)
+function myfunction(index,value){
+    text2+=index + " "
+}
+console.log(text2)
+
+const country=["rwanda","kenya","uganda"]
+
+let newcount="";
+country.forEach(myfunction);
+
+function myfunction(index){
+    newcount+=index +" "
+}
+console.log(newcount)
