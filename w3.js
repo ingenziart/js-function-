@@ -110,3 +110,50 @@ myObj = {
       car3:"Fiat"
     }
   }
+
+  //obect method with (this) property
+  const person4={
+    firstName:"aime",
+    lastName:"januzaj",
+    DOB:2000,
+    fullName:function(){
+        return this.firstName+" "+this.lastName
+    }
+}
+console.log(person4.fullName())
+
+//object display 
+
+//by lop
+
+const person5={
+    firstName:"aime",
+    lastName:"januzaj",
+    DOB:2000
+}
+
+let text=""
+for(let i in person5){
+    text+=person5[i]+" ";
+}
+console.log(text)
+
+const person6={
+    firstName:"aime",
+    lastName:"januzaj",
+    DOB:2000
+}
+
+const myarrays=Object.values(person6)
+console.log(myarrays)
+
+// using JSON stingify
+
+const person7={
+    firstName:"aime",
+    lastName:"januzaj",
+    DOB:2000
+}
+
+const json=JSON.stringify(person7)
+console.log(json)
