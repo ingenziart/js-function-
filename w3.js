@@ -179,3 +179,24 @@ const firstname1="aime"
 const lastname2="januzaj"
 
 console.log(`my name is ${firstname1+" "+lastname2}`)
+
+let z = 100 / "Apple";
+isNaN(z);
+console.log(z)
+
+// js number method
+
+let p = 123;
+
+console.log(p)
+
+//array
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let m=fruits.toString()
+console.log(m)
+
+// array join
+const myfluits=["Banana","pear","mango","brueberry"]
+let t=myfluits.join(" ")
+console.log(t)
