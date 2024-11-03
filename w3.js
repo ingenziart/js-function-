@@ -58,3 +58,55 @@ const person={
     DOB:2000
 }
 console.log(person.lastName)
+
+// create object with an empty 
+
+const person1={}
+person1.name="januzaj";
+person1.dob="2000"
+person1.hobby="coding"
+
+console.log(person1)
+
+const person2 = new Object();
+
+// Add Properties
+person2.firstName = "John";
+person2.lastName = "Doe";
+person2.age = 50;
+person2.eyeColor = "blue";
+console.log(person2)
+//delete
+const person1={}
+person1.name="januzaj";
+person1.dob="2000"
+person1.hobby="coding"
+
+console.log(delete person1.dob)
+console.log(person1)
+ 
+//nesting object
+
+const myobject={
+    name:"aime",
+    year:2000,
+
+    mycar4:{
+        name1:"bmw",
+        year2:2024
+
+    }
+    
+}
+
+
+
+myObj = {
+    name:"John",
+    age:30,
+    myCars: {
+      car1:"Ford",
+      car2:"BMW",
+      car3:"Fiat"
+    }
+  }
