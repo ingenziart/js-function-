@@ -277,3 +277,23 @@ console.log(x)
 
 const randomNumber=Math.floor(Math.random()*10);
 console.log(randomNumber)
+
+//if else 
+if(new Date().getHours()>22){
+    greating="good morning"
+}
+else{
+    greating="good night"
+}
+
+
+console.log(greating)
+
+month=new Date().getMonth();
+if(month>7){
+    application="open"
+}
+else{
+    application="closed"
+}
+console.log(application)
