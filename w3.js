@@ -252,3 +252,10 @@ function myfunction(value,index,array){
 console.log(numbers1)
 console.log(numbers2)
 
+// filter method 
+const numbers3=[12,6,56,7,8,34]
+const numbers4=numbers3.filter(myfunction);
+function myfunction(value){
+    return value >18
+}
+console.log(numbers4)
