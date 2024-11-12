@@ -220,7 +220,7 @@ console.log(ko)
 
 //js array iteration 
 
-// foreach
+// foreach ()
 
 const numbers=[45,12,27,89,76]
 
@@ -259,3 +259,7 @@ function myfunction(value){
     return value >18
 }
 console.log(numbers4)
+
+//foreach its like normsr forloop display 
+//map is dipsy value with out change first array 
+//filter is sort of value depend on condition setted .
