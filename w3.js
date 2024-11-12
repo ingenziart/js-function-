@@ -297,3 +297,31 @@ else{
     application="closed"
 }
 console.log(application)
+
+// switch
+
+const days=new Date().getHours();
+
+
+
+switch(days){
+    case 0:
+        dayi="sunday";
+        break;
+    case 1:
+        dayi="monday"
+        break;
+    case 2:
+        dayi="tuesday";
+        break
+    case 3:
+        dayi="wednesday"
+        break
+    case 4 :
+        dayi="thursday"
+        break
+    default:
+        dayi="not this one"
+
+}
+console.log(dayi)
