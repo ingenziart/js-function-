@@ -338,3 +338,16 @@ switch (r) {
     text = "No value found";
 }
 console.log(text)
+
+let hobie="tenis"
+switch(hobie){
+    case "football":
+        console.log("yes")
+        break
+    case "basketball":
+        console.log("N0")
+        break
+    default:
+        console.log("none")
+}
+console.log(hobie)
