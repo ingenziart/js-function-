@@ -263,3 +263,8 @@ console.log(numbers4)
 //foreach its like normsr forloop display 
 //map is dipsy value with out change first array 
 //filter is sort of value depend on condition setted .
+
+// dates js
+
+const date= new Date();
+console.log(date+" ")
