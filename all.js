@@ -32,3 +32,26 @@ console.log(random)
 const ages=34;
 const text="my name is januzaj and my age is"+" "+`${ages}`
 console.log(text)
+
+// for forEach
+
+const country=["rwanda","usa","canada","italy"]
+
+let newcountrylist=""
+country.forEach(myfunction)
+
+function myfunction(index){
+    newcountrylist+=index + " "
+}
+
+console.log(newcountrylist)
+
+// map
+
+const numbers=[12,3,34,56]
+const number2=numbers.map(myfunction);
+function myfunction(value,index,array){
+    return (value*2)
+} 
+console.log(numbers)
+console.log(number2)

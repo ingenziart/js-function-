@@ -244,18 +244,11 @@ console.log(newcount)
 
 //map
 
-const numbers=[45,12,27,89,76]
-const newnumber=numbers2.map(myfunction)
-
-function myfunction(index,value,array){
-    return value*2
+const numbers1=[12,6,56,7,8,34]
+const numbers2=numbers1.map(myfunction);
+function myfunction(value,index,array){
+    return (value*2)
 }
-console.log(myfunction())
+console.log(numbers1)
+console.log(numbers2)
 
-const numbers1 = [45, 4, 9, 16, 25];
-const numbers2 = numbers1.map(myFunction);
-
-function myFunction(value, index, array) {
-  return value * 2;
-}
-console.log(myFunction) 
