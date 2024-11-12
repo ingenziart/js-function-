@@ -268,3 +268,12 @@ console.log(numbers4)
 
 const date= new Date();
 console.log(date+" ")
+
+const month=new Date()
+x=month.getMonth()
+console.log(x)
+
+// random
+
+const randomNumber=Math.floor(Math.random()*10);
+console.log(randomNumber)
