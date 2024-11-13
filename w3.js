@@ -363,6 +363,19 @@ console.log(newcar)
 
 let text3=""
 for (i=0;i<5;i++){
-    text3+="the number is"+[i]+ " "
+    text3+=[i]+ " "
 }
 console.log(text3)
+
+// for in 
+
+const personn={
+    fnane:"aime",
+    lname:"januzaj",
+    age:24
+}
+let newperson="";
+for (let i in personn){
+    newperson+=personn[i]+ " "
+}
+console.log(newperson)

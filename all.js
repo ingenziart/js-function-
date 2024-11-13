@@ -65,3 +65,16 @@ for(i=0;i<numbers1.length;i++){
     newnumber+=numbers1[i]+ " "
 }
 console.log(newnumber)
+
+const personn={
+    fnane:"aime",
+    lname:"januzaj",
+    age:24
+}
+
+let me="";
+
+for (let x in personn){
+    me+=personn[x]+" "
+}
+console.log(me)
