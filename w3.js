@@ -379,3 +379,5 @@ for (let i in personn){
     newperson+=personn[i]+ " "
 }
 console.log(newperson)
+
+/*when we are working on object it does not have length do that we can use for loop so we use value or key that why we use for in loop */
