@@ -351,3 +351,18 @@ switch(hobie){
         console.log("none")
 }
 console.log(hobie)
+
+// for loop 
+
+const cars1=["toyota","porche","bmw","benz"]
+let newcar=""
+for (i=0;i<cars1.length;i++ ){
+    newcar+=cars1[i]+ " "
+}
+console.log(newcar)
+
+let text3=""
+for (i=0;i<5;i++){
+    text3+="the number is"+[i]+ " "
+}
+console.log(text3)

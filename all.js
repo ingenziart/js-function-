@@ -55,3 +55,13 @@ function myfunction(value,index,array){
 } 
 console.log(numbers)
 console.log(number2)
+
+// for loop
+
+const numbers1=[12,3,34,56]
+
+let newnumber="";
+for(i=0;i<numbers1.length;i++){
+    newnumber+=numbers1[i]+ " "
+}
+console.log(newnumber)
