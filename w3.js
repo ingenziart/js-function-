@@ -381,3 +381,12 @@ for (let i in personn){
 console.log(newperson)
 
 /*when we are working on object it does not have length do that we can use for loop so we use value or key that why we use for in loop */
+
+const number=[12,23,34,56,78]
+let newnumber=""
+for(let x in number){
+    newnumber +=number[x]+ " "
+}
+console.log(newnumber)
+
+
