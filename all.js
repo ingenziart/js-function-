@@ -78,3 +78,7 @@ for (let x in personn){
     me+=personn[x]+" "
 }
 console.log(me)
+
+const date= new Date()
+x=date.getDay()
+console.log(x)
