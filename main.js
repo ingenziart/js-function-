@@ -1,4 +1,10 @@
-import { bankAccount, counter, greating } from "./closure/closure.js";
+//import { bankAccount, counter, greating } from "./closure/closure.js";
+
+import { addinga } from "./arrow/function.js"
+
+
+
+
 //import { scopeRun } from "./scope/scope.js";
 //import { runVariables, testvar } from "./variables/variable.js";
 
@@ -9,9 +15,16 @@ function startApp(){
     //runVariables
     //testvar
    //scopeRun
-    counter
-   greating
-   bankAccount
+    //counter
+   //greating
+  // bankAccount
+  addinga
+
+  
+
+ 
+   
+  
    
    
 
