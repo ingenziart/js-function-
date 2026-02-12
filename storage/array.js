@@ -71,7 +71,15 @@ export function arrayRun(){
     console.log("rating",rating1);
 
     //reduce 
-    
+
+    const totalRating =movies1.reduce((sum,movie)=>{
+        return sum + movie.rating;
+    },0
+
+        
+    )
+    console.log(totalRating);
+
 
     
 
