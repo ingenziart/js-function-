@@ -112,6 +112,13 @@ export function objectRun(){
      console.log(product);
      console.log(deepNew);
 
+     //========== array=======//
+
+     
+
+
+
+
 
 
 
