@@ -75,6 +75,49 @@ export function objectRun(){
     console.log(user2.adress.city);
     console.log(deepCopy.adress.city);
 
+
+
+    const product ={
+        name:"Laptop",
+        price:  1200,
+        specs:{
+            brand:"dell",
+            warranty:"1 year"
+        }
+
+    } 
+     //shallow and change warranty
+     
+     const shallowCopy = {...product}
+
+     shallowCopy.specs.warranty="2 years"
+     console.log(product);
+     console.log(shallowCopy);
+
+     //deepcopy  using old version
+
+     const deepOld = JSON.parse(JSON.stringify(product))
+
+     deepOld.specs.warranty="3 years"
+
+     console.log(product);
+     console.log(deepOld);
+
+     //deep with new method 
+
+     const deepNew =structuredClone(product)
+
+     deepNew.specs.warranty="4 years"
+
+     console.log(product);
+     console.log(deepNew);
+
+
+
+
+
+
+
     
 
 
