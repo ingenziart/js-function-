@@ -1,6 +1,8 @@
 //import { bankAccount, counter, greating } from "./closure/closure.js";
 
-import { arrayRun } from "./storage/array.js"
+import { addinga } from "./arrow/function.js"
+
+//import { arrayRun } from "./storage/array.js"
 
 //import { objectRun } from "./storage/storage.js"
 
@@ -20,7 +22,8 @@ function startApp(){
   // bankAccount
   //addinga
   //objectRun
-  arrayRun
+  //arrayRun
+  addinga
 
   
 

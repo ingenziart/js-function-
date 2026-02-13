@@ -80,6 +80,8 @@ export function arrayRun(){
     )
     console.log(totalRating);
 
+    
+
 
     
 
