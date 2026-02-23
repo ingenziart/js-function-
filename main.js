@@ -1,6 +1,6 @@
 //import { bankAccount, counter, greating } from "./closure/closure.js";
 
-import { asyncRun } from "./async/async.js"
+//import { asyncRun } from "./async/async.js"
 
 //import { addinga } from "./arrow/function.js"
 
@@ -26,7 +26,7 @@ function startApp(){
   //objectRun
   //arrayRun
   //addinga
-  asyncRun
+  //asyncRun
 
   
 
