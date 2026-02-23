@@ -1,7 +1,8 @@
 import { runTypescript } from "./typescripts/some.ts"
 
+
 function startApp(){
-    runTypescript
+  runTypescript()
 
 }
 startApp()
