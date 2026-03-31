@@ -15,7 +15,7 @@ async function getUser() {
  }catch(error){
    console.log(error);
     
-
+const name="hell"
  }
     
 }
