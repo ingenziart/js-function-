@@ -9,6 +9,7 @@ export function scopeRun(){
     const y = 10
     const z =20
     const t =30
+    const z =40 
     
 }
 scopeRun()
